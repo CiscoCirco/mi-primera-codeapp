@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "appId": null,
+  "appDisplayName": "Mi Primera Code App",
+  "region": "prod",
+  "environmentId": "6fc3f94c-ba56-e54d-87e4-785e6cded5e1",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {
+    "34700ca1-caa3-43db-9754-e059474e047c": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+      "displayName": "SharePoint",
+      "dataSources": [
+        "listadodewikis"
+      ],
+      "dataSets": {
+        "https%253A%252F%252Fcirco.sharepoint.com%252Fsites%252FCircoStudia": {
+          "dataSources": {
+            "listadodewikis": {
+              "tableName": "e8a34448-08a5-4183-9296-2119989a1231"
+            }
+          }
+        }
+      }
+    }
+  },
+  "databaseReferences": {
+    "default.cds": {
+      "dataSources": {
+        "tarea": {
+          "entitySetName": "cra58_tareas",
+          "logicalName": "cra58_tarea"
+        }
+      },
+      "environmentVariableName": ""
+    }
+  }
+}
