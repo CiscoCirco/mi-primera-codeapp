@@ -12,7 +12,7 @@ export const dataSourcesInfo = {
     "dataSourceType": "Dataverse",
     "apis": {}
   },
-  "listado de wikis": {
+  "listadodewikis":  {
     "tableId": "e8a34448-08a5-4183-9296-2119989a1231",
     "version": "",
     "primaryKey": "ID",

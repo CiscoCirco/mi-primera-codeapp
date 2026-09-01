@@ -11,7 +11,7 @@ import { getClient } from '@microsoft/power-apps/data';
 
 
 export class LISTADODEWIKISService {
-  private static readonly dataSourceName = 'listado de wikis';
+  private static readonly dataSourceName = 'listadodewikis';
 
   private static readonly client = getClient(dataSourcesInfo);
 
